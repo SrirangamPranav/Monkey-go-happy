@@ -61,6 +61,7 @@ function draw() {
       {
           monkey.velocityY = -15;
           jumpsound.play(); 
+          camera.position.y = ground.y
       }
       survivaltime=survivaltime+Math.round(getFrameRate()/60);
       monkey.velocityY = monkey.velocityY + 0.6;
